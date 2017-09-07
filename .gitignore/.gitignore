@@ -1,0 +1,12 @@
+grade = input("enter score")
+if grade > 89:
+	print ("you got an A")
+elif grade < 90 and grade > 79:
+	 print ("you got a B")
+elif grade < 80 and grade > 69:
+	 print ("you got a C")
+else:
+	 grade < 70 
+	 print ("you got a D")
+   
+   ## grade calculation tool possible homework
