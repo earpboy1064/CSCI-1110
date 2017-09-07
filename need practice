@@ -1,0 +1,13 @@
+counter = 0
+Largest_odd = 0
+ 
+while (counter <= 10):	
+	user_input = input()
+	counter = counter + 1
+	if user_input%2 = 1:
+		if user_input > Largest_odd:
+			largest_odd = user_input
+
+print largest_odd
+
+##work on
