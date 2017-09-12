@@ -1,3 +1,4 @@
+##only for a test that has 100 possible score
 grade = input("enter score")
 if grade > 89:
 	print ("you got an A")
@@ -10,3 +11,26 @@ else:
 	 print ("you got a D")
    
    ## grade calculation tool possible homework
+   
+## for a test that only has 60 possible score   
+   total_score = input("total_score: ")
+
+percent = total_score/60.0 * 100.0
+
+print (percent)
+
+if percent >= 90:
+	print "you got an A "
+
+elif percent >= 80 and percent < 90:
+	print " you got a B"
+
+elif percent >= 70 and percent < 80:
+	print "you got a C"
+
+elif percent >= 60 and percent < 50:
+	print "you got a D"
+
+else:
+	print "you got an F" 
+
