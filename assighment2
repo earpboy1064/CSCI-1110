@@ -1,0 +1,8 @@
+cost = 104400.00 
+year = 1
+
+while cost > 30000:
+
+	#print year + 1, 
+	print cost / 10
+## not working
