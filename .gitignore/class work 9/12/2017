@@ -1,0 +1,7 @@
+pr = input("principle")
+interest = input("intrest")
+
+
+for i in range (1,6,):
+	pr = pr + pr* interest / 100.0
+	print "your new balance after year", i, "is", pr
